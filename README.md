@@ -19,20 +19,16 @@ The dataset used is opensource dataset i.e. FER2013 challenge on Kaggle.Distribu
 * [tensorflow](https://www.tensorflow.org/)
 * Augmentor
 * Open CV
-
 ### Step by Step Approach
 #### Step1- Data Augmentation
 * first the dataset will be loaded into the system and split the dataset according to different classes of emotions as dataset is mixed collection of all emotions
 * Then apply data augmentation tothe dataset so as to increase the images for particulars emotions
 <br>Run the<u> data_augmentation.ipynb</u> notebook for this step</b>
-
 #### Step2- Data Preprocessing
 In this step, convert images into numpy array,create the labels for the newly created images by data augmentation and other require processing. <br>
 <b> Run the <u>data_preprocessing_step2.ipynb</u> notebook for this step</b>
-
 #### Step3- Training model
 This is the final step of our project.
 * Use Keras to build the CNN architecture.
 * After training of model on training set, evaluate the model on test set to check for its accuracy on the unknown dataset.
-
 <b> Run the <u> model_.ipynb</u> notebook for the final step </b>
