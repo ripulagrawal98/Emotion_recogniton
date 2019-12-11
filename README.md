@@ -1,4 +1,4 @@
-# Face To Text
+# Face To Text (Emotion Recognition)
 The main objective of this project is to build a system that will recognize the emotions of person in the frame i.e. either image or video using his/her facial expressions.So basically the system will accept the input inthe form of image or video of the person and then using <b>Deep learning</b> model i.e. <b>Convolutional Neural Network</b> itwill output the emotion of person out of 7 classes of emotions including :
 * 0- neutral
 * 1- angry
